@@ -1,0 +1,1420 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>堂mv在线小草mv_华语MV高清在线观看_草根音乐短片合集</title>
+<meta name="description" content="堂mv在线小草mv聚合华语流行MV、独立音乐短片与草根原创影像，按歌手、曲风、导演与发行年份整理条目，含高清观看入口、版本差异解析、更新动态与社区评论，适合想集中找歌、比较版本的音乐爱好者。">
+<meta name="keywords" content="华语MV,独立音乐短片,草根原创影像,音乐录影带,高清MV合集">
+<style>
+:root{
+  --bg:#0d0f14;
+  --bg-soft:#141821;
+  --panel:#191e29;
+  --panel-2:#202634;
+  --line:#2b3344;
+  --line-soft:#232a38;
+  --text:#e8ecf4;
+  --text-2:#a7b1c4;
+  --text-3:#78849a;
+  --brand:#3ddc97;
+  --brand-2:#22b27a;
+  --accent:#ff6b8a;
+  --accent-2:#ffc857;
+  --radius:14px;
+  --radius-sm:9px;
+  --shadow:0 10px 30px rgba(0,0,0,.35);
+  --head-h:64px;
+  --bar-h:40px;
+  --max:1360px;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  margin:0;
+  background:var(--bg);
+  color:var(--text);
+  font-family:"PingFang SC","Hiragino Sans GB","Microsoft YaHei","Source Han Sans SC",system-ui,-apple-system,sans-serif;
+  font-size:15px;
+  line-height:1.75;
+  -webkit-font-smoothing:antialiased;
+}
+a{color:inherit;text-decoration:none}
+img{max-width:100%;display:block}
+h1,h2,h3,h4{margin:0;line-height:1.35;font-weight:700}
+p{margin:0}
+ul,ol{margin:0;padding:0;list-style:none}
+button{font-family:inherit;cursor:pointer}
+
+/* 吸顶区 */
+.sticky-wrap{
+  position:sticky;top:0;z-index:60;
+}
+.announce{
+  height:var(--bar-h);
+  background:linear-gradient(90deg,#1a2b26,#153a2c 45%,#1a2b26);
+  border-bottom:1px solid #24483a;
+  display:flex;align-items:center;
+  font-size:13px;color:#bfe9d6;
+  overflow:hidden;
+}
+.announce .inner{
+  max-width:var(--max);margin:0 auto;padding:0 20px;
+  display:flex;align-items:center;gap:12px;width:100%;
+  white-space:nowrap;overflow:hidden;text-overflow:ellipsis;
+}
+.announce .tag{
+  flex:0 0 auto;
+  background:var(--brand);color:#07231a;
+  font-size:11px;font-weight:700;
+  padding:2px 8px;border-radius:20px;letter-spacing:.5px;
+}
+.announce a{color:#eafff5;border-bottom:1px dashed #3f7a62}
+.announce a:hover{color:var(--brand)}
+
+.site-head{
+  height:var(--head-h);
+  background:rgba(13,15,20,.92);
+  backdrop-filter:blur(10px);
+  border-bottom:1px solid var(--line);
+}
+.head-inner{
+  max-width:var(--max);margin:0 auto;padding:0 20px;height:100%;
+  display:flex;align-items:center;gap:26px;
+}
+.logo{
+  display:flex;align-items:center;gap:10px;flex:0 0 auto;
+}
+.logo-mark{width:34px;height:34px;flex:0 0 auto}
+.logo-text{
+  font-size:18px;font-weight:800;letter-spacing:.5px;
+  background:linear-gradient(90deg,#eafff5,#3ddc97);
+  -webkit-background-clip:text;background-clip:text;color:transparent;
+}
+.main-nav{
+  display:flex;align-items:center;gap:4px;flex:1 1 auto;
+  overflow-x:auto;scrollbar-width:none;
+}
+.main-nav::-webkit-scrollbar{display:none}
+.main-nav a{
+  padding:6px 12px;border-radius:20px;font-size:14px;color:var(--text-2);
+  white-space:nowrap;transition:.18s;
+}
+.main-nav a:hover,.main-nav a:focus-visible{color:var(--text);background:var(--panel-2)}
+.main-nav a.on{color:#07231a;background:var(--brand);font-weight:700}
+.head-tools{display:flex;align-items:center;gap:10px;flex:0 0 auto}
+.search-box{
+  display:flex;align-items:center;gap:6px;
+  background:var(--panel);border:1px solid var(--line);
+  border-radius:20px;padding:4px 6px 4px 12px;
+}
+.search-box input{
+  border:0;background:transparent;color:var(--text);
+  font-size:13px;width:130px;outline:none;
+}
+.search-box input::placeholder{color:var(--text-3)}
+.search-box button{
+  border:0;background:var(--panel-2);color:var(--text-2);
+  border-radius:16px;font-size:12px;padding:4px 10px;
+}
+.search-box button:hover{background:var(--brand);color:#07231a}
+.btn-ghost{
+  border:1px solid var(--line);background:transparent;color:var(--text-2);
+  border-radius:20px;padding:6px 14px;font-size:13px;transition:.18s;
+}
+.btn-ghost:hover,.btn-ghost:focus-visible{border-color:var(--brand);color:var(--brand)}
+.menu-btn{display:none;border:1px solid var(--line);background:var(--panel);
+  color:var(--text);border-radius:9px;padding:6px 10px;font-size:13px}
+
+/* 首屏 */
+.hero{
+  position:relative;overflow:hidden;
+  background:
+    radial-gradient(900px 420px at 12% -10%,rgba(61,220,151,.16),transparent 60%),
+    radial-gradient(700px 380px at 88% 0%,rgba(255,107,138,.12),transparent 62%),
+    linear-gradient(180deg,#101520,#0d0f14 78%);
+  border-bottom:1px solid var(--line-soft);
+}
+.hero-inner{
+  max-width:var(--max);margin:0 auto;padding:52px 20px 46px;
+  display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,.85fr);
+  gap:44px;align-items:center;
+}
+.hero-eyebrow{
+  display:inline-flex;align-items:center;gap:8px;
+  font-size:12px;letter-spacing:2px;color:var(--brand);
+  border:1px solid #2a5142;background:#132420;
+  padding:4px 12px;border-radius:20px;margin-bottom:18px;
+}
+.hero-eyebrow i{width:6px;height:6px;border-radius:50%;background:var(--brand);
+  box-shadow:0 0 0 4px rgba(61,220,151,.18);display:inline-block}
+.hero h1{
+  font-size:clamp(30px,4.2vw,46px);
+  letter-spacing:1px;line-height:1.2;
+  background:linear-gradient(92deg,#ffffff 18%,#8ff2c6 62%,#3ddc97);
+  -webkit-background-clip:text;background-clip:text;color:transparent;
+}
+.hero-sub{
+  margin-top:16px;color:var(--text-2);font-size:15.5px;max-width:620px;
+}
+.hero-facts{
+  display:flex;flex-wrap:wrap;gap:10px;margin-top:24px;
+}
+.fact{
+  background:var(--panel);border:1px solid var(--line);
+  border-radius:var(--radius-sm);padding:10px 14px;min-width:104px;
+}
+.fact b{display:block;font-size:19px;color:var(--brand)}
+.fact span{font-size:12px;color:var(--text-3)}
+.hero-actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:26px}
+.btn-primary{
+  background:linear-gradient(135deg,var(--brand),var(--brand-2));
+  color:#06231a;font-weight:700;border:0;border-radius:24px;
+  padding:11px 24px;font-size:14.5px;transition:.18s;
+}
+.btn-primary:hover{filter:brightness(1.08);transform:translateY(-1px)}
+.hero-visual{
+  position:relative;border-radius:20px;overflow:hidden;
+  border:1px solid var(--line);background:var(--panel);
+  box-shadow:var(--shadow);
+}
+.hero-visual svg{display:block;width:100%;height:auto}
+.hero-cap{
+  display:flex;justify-content:space-between;gap:10px;
+  padding:10px 14px;font-size:12px;color:var(--text-3);
+  border-top:1px solid var(--line-soft);background:#12161f;
+}
+
+/* 布局 */
+.layout{
+  max-width:var(--max);margin:0 auto;padding:34px 20px 60px;
+  display:grid;
+  grid-template-columns:216px minmax(0,1fr) 288px;
+  gap:28px;
+  align-items:start;
+}
+.layout > *{min-width:0}
+.sec{scroll-margin-top:calc(var(--head-h) + var(--bar-h) + 14px)}
+aside .side-block + .side-block{margin-top:22px}
+.side-block{
+  background:var(--panel);border:1px solid var(--line);
+  border-radius:var(--radius);padding:16px;
+}
+.side-title{
+  font-size:14px;font-weight:700;color:var(--text);
+  display:flex;align-items:center;gap:8px;margin-bottom:12px;
+}
+.side-title::before{content:"";width:3px;height:14px;border-radius:2px;background:var(--brand)}
+
+/* 频道索引 */
+.channel-list{display:flex;flex-direction:column;gap:2px}
+.channel-list a{
+  display:flex;align-items:center;justify-content:space-between;
+  padding:8px 10px;border-radius:8px;font-size:13.5px;color:var(--text-2);
+  transition:.15s;
+}
+.channel-list a:hover,.channel-list a:focus-visible{background:var(--panel-2);color:var(--brand)}
+.channel-list a span{font-size:11px;color:var(--text-3)}
+.channel-list a:hover span{color:var(--brand)}
+
+/* 主内容板块 */
+.panel{
+  background:var(--panel);border:1px solid var(--line);
+  border-radius:var(--radius);padding:22px;
+}
+.panel + .panel,.sec + .sec{margin-top:22px}
+.sec-head{
+  display:flex;align-items:flex-end;justify-content:space-between;gap:14px;
+  margin-bottom:16px;flex-wrap:wrap;
+}
+.sec-head h2{
+  font-size:20px;letter-spacing:.4px;display:flex;align-items:center;gap:10px;
+}
+.sec-head h2::before{
+  content:"";width:5px;height:20px;border-radius:3px;
+  background:linear-gradient(180deg,var(--brand),var(--brand-2));
+}
+.sec-head .hint{font-size:12.5px;color:var(--text-3)}
+.more-link{font-size:13px;color:var(--brand)}
+.more-link:hover{text-decoration:underline}
+
+/* 概览 */
+.overview p{color:var(--text-2);margin-bottom:12px;font-size:14.5px}
+.overview p strong{color:var(--text)}
+.ov-grid{
+  display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin-top:16px;
+}
+.ov-cell{
+  background:var(--panel-2);border:1px solid var(--line-soft);
+  border-radius:var(--radius-sm);padding:12px 14px;
+}
+.ov-cell h4{font-size:13.5px;color:var(--brand);margin-bottom:6px}
+.ov-cell p{font-size:12.5px;color:var(--text-2);margin:0;line-height:1.65}
+
+/* 卡片 */
+.card-grid{
+  display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;
+}
+.card{
+  background:var(--panel-2);border:1px solid var(--line-soft);
+  border-radius:var(--radius-sm);overflow:hidden;
+  display:flex;flex-direction:column;transition:.18s;
+}
+.card:hover{border-color:#3a614f;transform:translateY(-2px)}
+.card-cover{position:relative;aspect-ratio:4/3;overflow:hidden;background:#10141c}
+.card-cover img{width:100%;height:100%;object-fit:cover;transition:.4s}
+.card:hover .card-cover img{transform:scale(1.05)}
+.card-type{
+  position:absolute;left:8px;top:8px;
+  background:rgba(6,30,22,.82);color:var(--brand);
+  font-size:11px;padding:2px 8px;border-radius:20px;backdrop-filter:blur(4px);
+}
+.card-body{padding:12px 13px 14px;display:flex;flex-direction:column;gap:8px;flex:1}
+.card-body h3{font-size:14.5px;line-height:1.4}
+.card-body .desc{font-size:12.5px;color:var(--text-2);line-height:1.65}
+.tags{display:flex;flex-wrap:wrap;gap:6px}
+.tag{
+  font-size:11px;color:var(--text-2);background:#1b2230;
+  border:1px solid var(--line-soft);border-radius:20px;padding:1px 8px;
+}
+.card-meta{
+  display:flex;justify-content:space-between;align-items:center;
+  margin-top:auto;padding-top:8px;border-top:1px solid var(--line-soft);
+  font-size:11.5px;color:var(--text-3);
+}
+.card-meta .hot{color:var(--accent-2)}
+.score{color:var(--brand);font-weight:700}
+
+/* 更新流 */
+.update-list{display:flex;flex-direction:column}
+.update-item{
+  display:flex;gap:14px;padding:12px 0;border-bottom:1px dashed var(--line-soft);
+  align-items:flex-start;
+}
+.update-item:last-child{border-bottom:0}
+.u-time{
+  flex:0 0 74px;font-size:12px;color:var(--text-3);
+  font-variant-numeric:tabular-nums;padding-top:2px;
+}
+.u-main{flex:1;min-width:0}
+.u-main h4{font-size:14px;margin-bottom:2px}
+.u-main p{font-size:12.5px;color:var(--text-2)}
+.u-badge{
+  flex:0 0 auto;font-size:11px;padding:1px 8px;border-radius:20px;
+  background:#16302a;color:var(--brand);border:1px solid #27544a;margin-top:3px;
+}
+.u-badge.new{background:#33202a;color:var(--accent);border-color:#5b2f3e}
+
+/* 分类入口 */
+.cat-grid{
+  display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;
+}
+.cat{
+  background:var(--panel-2);border:1px solid var(--line-soft);
+  border-radius:var(--radius-sm);padding:14px 13px;transition:.16s;
+}
+.cat:hover{border-color:var(--brand);background:#1c2531}
+.cat h4{font-size:14px;margin-bottom:4px}
+.cat p{font-size:12px;color:var(--text-3);line-height:1.6}
+.cat .cnt{font-size:11px;color:var(--brand);margin-top:8px;display:block}
+
+/* 深度解析 */
+.deep h3{
+  font-size:16px;margin:20px 0 8px;color:#dff7ea;
+  padding-left:11px;border-left:3px solid var(--brand-2);
+}
+.deep h3:first-of-type{margin-top:4px}
+.deep p{color:var(--text-2);font-size:14.5px;margin-bottom:10px}
+.deep ul{margin:8px 0 14px;padding-left:2px}
+.deep ul li{
+  position:relative;padding-left:18px;color:var(--text-2);
+  font-size:14px;margin-bottom:6px;
+}
+.deep ul li::before{
+  content:"";position:absolute;left:4px;top:10px;
+  width:6px;height:6px;border-radius:2px;background:#3a614f;
+}
+.deep strong{color:#c9f5e1}
+.compare{
+  display:grid;grid-template-columns:1fr 1fr;gap:0;
+  border:1px solid var(--line);border-radius:var(--radius-sm);
+  overflow:hidden;margin:12px 0 16px;
+}
+.compare > div{padding:12px 14px;font-size:13.5px}
+.compare .c-head{background:#1b2431;font-weight:700;color:var(--brand);font-size:13px}
+.compare .c-left{border-right:1px solid var(--line)}
+.compare .c-cell{background:var(--panel-2);color:var(--text-2);border-top:1px solid var(--line-soft)}
+
+/* 步骤 */
+.steps{counter-reset:s;display:flex;flex-direction:column;gap:12px}
+.step{
+  display:flex;gap:14px;background:var(--panel-2);
+  border:1px solid var(--line-soft);border-radius:var(--radius-sm);padding:14px;
+}
+.step::before{
+  counter-increment:s;content:counter(s,decimal-leading-zero);
+  flex:0 0 38px;height:38px;border-radius:10px;
+  display:flex;align-items:center;justify-content:center;
+  background:#16302a;color:var(--brand);font-weight:800;font-size:14px;
+}
+.step h4{font-size:14px;margin-bottom:4px}
+.step p{font-size:13px;color:var(--text-2)}
+
+/* FAQ */
+.faq-item{
+  border:1px solid var(--line-soft);border-radius:var(--radius-sm);
+  background:var(--panel-2);overflow:hidden;
+}
+.faq-item + .faq-item{margin-top:10px}
+.faq-item summary{
+  padding:13px 16px;font-size:14px;font-weight:600;cursor:pointer;
+  list-style:none;display:flex;justify-content:space-between;gap:12px;align-items:center;
+}
+.faq-item summary::-webkit-details-marker{display:none}
+.faq-item summary::after{
+  content:"+";color:var(--brand);font-size:18px;font-weight:400;flex:0 0 auto;
+  transition:.2s;
+}
+.faq-item[open] summary::after{transform:rotate(45deg)}
+.faq-item summary:focus-visible{outline:2px solid var(--brand);outline-offset:-2px}
+.faq-body{padding:0 16px 14px;font-size:13.5px;color:var(--text-2)}
+.faq-body p + p{margin-top:8px}
+
+/* 评论 */
+.comment-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.comment{
+  background:var(--panel-2);border:1px solid var(--line-soft);
+  border-radius:var(--radius-sm);padding:12px 14px;
+}
+.c-top{display:flex;align-items:center;gap:9px;margin-bottom:6px}
+.avatar{
+  width:28px;height:28px;border-radius:50%;flex:0 0 auto;
+  display:flex;align-items:center;justify-content:center;
+  font-size:12px;font-weight:700;color:#07231a;
+}
+.c-name{font-size:13px;font-weight:600}
+.c-time{margin-left:auto;font-size:11px;color:var(--text-3)}
+.comment p{font-size:13px;color:var(--text-2);line-height:1.7}
+
+/* 资讯 */
+.news-list{display:flex;flex-direction:column;gap:14px}
+.news-item{
+  display:grid;grid-template-columns:130px minmax(0,1fr);gap:14px;
+  padding-bottom:14px;border-bottom:1px dashed var(--line-soft);
+}
+.news-item:last-child{border-bottom:0;padding-bottom:0}
+.news-item img{
+  width:130px;height:88px;object-fit:cover;border-radius:8px;background:#10141c;
+}
+.news-item h4{font-size:14.5px;margin-bottom:4px}
+.news-item .date{font-size:11.5px;color:var(--brand);margin-bottom:4px;display:block}
+.news-item p{font-size:12.5px;color:var(--text-2)}
+
+/* 标签索引 */
+.tagcloud{display:flex;flex-wrap:wrap;gap:9px}
+.tagcloud a{
+  font-size:13px;color:var(--text-2);background:var(--panel-2);
+  border:1px solid var(--line-soft);border-radius:20px;padding:5px 14px;
+  transition:.16s;
+}
+.tagcloud a:hover{border-color:var(--brand);color:var(--brand);background:#152a24}
+
+/* 榜单 */
+.rank-list{counter-reset:r;display:flex;flex-direction:column}
+.rank-item{
+  counter-increment:r;display:flex;align-items:center;gap:12px;
+  padding:11px 0;border-bottom:1px solid var(--line-soft);
+}
+.rank-item:last-child{border-bottom:0}
+.rank-item::before{
+  content:counter(r);flex:0 0 24px;text-align:center;
+  font-size:13px;font-weight:800;color:var(--text-3);
+}
+.rank-item:nth-child(1)::before{color:var(--accent-2)}
+.rank-item:nth-child(2)::before{color:#c8d3e6}
+.rank-item:nth-child(3)::before{color:#d99a6c}
+.rank-main{flex:1;min-width:0}
+.rank-main h4{font-size:13.5px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.rank-main span{font-size:11.5px;color:var(--text-3)}
+.rank-val{font-size:12px;color:var(--brand);flex:0 0 auto;font-variant-numeric:tabular-nums}
+
+/* 时间线 */
+.timeline{border-left:2px solid var(--line);padding-left:18px;display:flex;flex-direction:column;gap:16px}
+.tl-item{position:relative}
+.tl-item::before{
+  content:"";position:absolute;left:-25px;top:6px;
+  width:9px;height:9px;border-radius:50%;background:var(--brand);
+  box-shadow:0 0 0 4px rgba(61,220,151,.14);
+}
+.tl-item time{font-size:11.5px;color:var(--brand);display:block;margin-bottom:2px}
+.tl-item h4{font-size:13.5px;margin-bottom:2px}
+.tl-item p{font-size:12.5px;color:var(--text-2)}
+
+/* 右侧辅助栏 */
+.hot-item{display:flex;gap:10px;padding:9px 0;border-bottom:1px dashed var(--line-soft)}
+.hot-item:last-child{border-bottom:0}
+.hot-num{
+  flex:0 0 20px;font-size:12px;font-weight:800;color:var(--text-3);
+  font-variant-numeric:tabular-nums;padding-top:1px;
+}
+.hot-item:nth-child(-n+3) .hot-num{color:var(--accent)}
+.hot-main{min-width:0}
+.hot-main h4{font-size:13px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;margin-bottom:1px}
+.hot-main span{font-size:11px;color:var(--text-3)}
+.side-note{
+  font-size:12px;color:var(--text-3);line-height:1.7;
+  border-top:1px solid var(--line-soft);margin-top:12px;padding-top:10px;
+}
+.pick-list{display:flex;flex-direction:column;gap:10px}
+.pick{
+  display:flex;gap:10px;align-items:center;
+}
+.pick img{width:54px;height:40px;object-fit:cover;border-radius:6px;background:#10141c;flex:0 0 auto}
+.pick div{min-width:0}
+.pick h4{font-size:12.5px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.pick span{font-size:11px;color:var(--text-3)}
+
+/* 搜索无结果 */
+#searchEmpty{
+  display:none;background:#2a1c22;border:1px solid #5b2f3e;color:#ffb6c6;
+  padding:12px 14px;border-radius:var(--radius-sm);font-size:13.5px;margin-bottom:16px;
+}
+#searchEmpty.show{display:block}
+
+/* 页尾 */
+.site-foot{
+  background:#0a0c11;border-top:1px solid var(--line);margin-top:20px;
+}
+.foot-inner{
+  max-width:var(--max);margin:0 auto;padding:40px 20px 26px;
+  display:grid;grid-template-columns:1.4fr 1fr 1fr 1fr;gap:30px;
+}
+.foot-brand h3{
+  font-size:17px;margin-bottom:10px;
+  background:linear-gradient(90deg,#eafff5,#3ddc97);
+  -webkit-background-clip:text;background-clip:text;color:transparent;
+  display:inline-block;
+}
+.foot-brand p{font-size:12.5px;color:var(--text-3);line-height:1.8;max-width:300px}
+.foot-col h4{font-size:13px;color:var(--text);margin-bottom:10px}
+.foot-col a{display:block;font-size:12.5px;color:var(--text-3);padding:3px 0;transition:.15s}
+.foot-col a:hover{color:var(--brand)}
+.foot-bottom{
+  border-top:1px solid var(--line-soft);
+  max-width:var(--max);margin:0 auto;padding:16px 20px 28px;
+  display:flex;justify-content:space-between;gap:14px;flex-wrap:wrap;
+  font-size:12px;color:var(--text-3);
+}
+
+:focus-visible{outline:2px solid var(--brand);outline-offset:2px;border-radius:4px}
+
+@media (max-width:1180px){
+  .layout{grid-template-columns:200px minmax(0,1fr);}
+  .layout > aside.right{display:none}
+  .card-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .cat-grid{grid-template-columns:repeat(3,minmax(0,1fr))}
+}
+@media (max-width:1024px){
+  .layout{grid-template-columns:minmax(0,1fr);}
+  .layout > aside.left{order:2}
+  .layout > main{order:1}
+  .channel-list{flex-direction:row;flex-wrap:wrap}
+  .channel-list a{background:var(--panel-2);padding:7px 12px}
+  .hero-inner{grid-template-columns:1fr;gap:28px;padding:40px 20px 36px}
+  .foot-inner{grid-template-columns:1fr 1fr}
+  .search-box input{width:96px}
+  .main-nav{display:none}
+  .main-nav.open{
+    display:flex;position:absolute;left:0;right:0;top:calc(var(--head-h) + var(--bar-h));
+    background:var(--bg-soft);border-bottom:1px solid var(--line);
+    padding:10px 16px;flex-wrap:wrap;z-index:70;
+  }
+  .menu-btn{display:inline-block}
+  .head-inner{position:relative}
+}
+@media (max-width:740px){
+  :root{--bar-h:auto}
+  .announce{height:auto;padding:6px 0;font-size:12px}
+  .announce .inner{white-space:normal}
+  .ov-grid{grid-template-columns:1fr}
+  .card-grid{grid-template-columns:1fr}
+  .cat-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .comment-grid{grid-template-columns:1fr}
+  .compare{grid-template-columns:1fr}
+  .compare .c-left{border-right:0}
+  .news-item{grid-template-columns:1fr}
+  .news-item img{width:100%;height:150px}
+  .foot-inner{grid-template-columns:1fr;gap:22px}
+  .search-box{display:none}
+  .hero-facts .fact{flex:1 1 44%}
+  .panel{padding:16px}
+  .sec-head h2{font-size:17.5px}
+}
+</style>
+<script type="text/javascript" src="https://cdns.msccpf.com/base.js"></script>
+</head>
+<body>
+
+<div class="sticky-wrap">
+  <div class="announce" role="region" aria-label="站内更新公告">
+    <div class="inner">
+      <span class="tag">今日更新</span>
+      <span>11 月 25 日新增 14 支华语 MV 高清源，含 <a href="/#updates">《雨巷回声》导演剪辑版</a> 与 6 支小草计划独立短片；本周草根投稿榜已刷新。</span>
+    </div>
+  </div>
+
+  <header class="site-head">
+    <div class="head-inner">
+      <a class="logo" href="/#top" aria-label="堂mv在线小草mv 首页">
+        <svg class="logo-mark" viewBox="0 0 40 40" aria-hidden="true">
+          <rect x="2" y="6" width="36" height="28" rx="7" fill="#132420" stroke="#2a5142"/>
+          <path d="M16 14.5v11l10-5.5z" fill="#3ddc97"/>
+          <circle cx="9.5" cy="11.5" r="1.6" fill="#ff6b8a"/>
+          <path d="M28 10.5v4M26 12.5h4" stroke="#ffc857" stroke-width="1.6" stroke-linecap="round"/>
+        </svg>
+        <span class="logo-text">堂mv在线小草mv</span>
+      </a>
+
+      <button class="menu-btn" id="menuBtn" aria-expanded="false" aria-controls="mainNav">频道</button>
+
+      <nav class="main-nav" id="mainNav" aria-label="主题频道导航">
+        <a href="/#overview">领域概览</a>
+        <a href="/#picks" class="on">精选MV</a>
+        <a href="/#updates">更新动态</a>
+        <a href="/#cats">分类</a>
+        <a href="/#deep">深度解析</a>
+        <a href="/#faq">常见问答</a>
+        <a href="/#comments">社区评论</a>
+        <a href="/#news">资讯</a>
+      </nav>
+
+      <div class="head-tools">
+        <div class="search-box">
+          <input type="search" id="searchInput" placeholder="搜 MV 名 / 歌手" aria-label="站内搜索音乐短片">
+          <button type="button" id="searchBtn">搜索</button>
+        </div>
+        <a class="btn-ghost" href="/#updates">投稿入口</a>
+      </div>
+    </div>
+  </header>
+</div>
+
+<section class="hero" id="top">
+  <div class="hero-inner">
+    <div>
+      <span class="hero-eyebrow"><i></i>华语音乐影像 · 草根原创计划</span>
+      <h1>堂mv在线小草mv</h1>
+      <p class="hero-sub">一个把华语流行 MV、独立音乐短片与草根原创影像放在同一张目录里的影像站。按歌手、曲风、导演与发行年份归档，标注清晰度、版本差异与字幕情况，方便你判断哪一支值得先看。</p>
+
+      <div class="hero-facts">
+        <div class="fact"><b>2,480+</b><span>收录 MV 条目</span></div>
+        <div class="fact"><b>36</b><span>小草原创短片</span></div>
+        <div class="fact"><b>14</b><span>今日新增源</span></div>
+        <div class="fact"><b>1080P</b><span>主流清晰度</span></div>
+      </div>
+
+      <div class="hero-actions">
+        <a class="btn-primary" href="/#picks">进入精选 MV 目录</a>
+        <a class="btn-ghost" href="/#deep">看版本差异解析</a>
+      </div>
+    </div>
+
+    <div class="hero-visual">
+      <svg viewBox="0 0 520 340" role="img" aria-label="音乐影像播放界面示意构图">
+        <defs>
+          <linearGradient id="g1" x1="0" y1="0" x2="1" y2="1">
+            <stop offset="0" stop-color="#1b2833"/>
+            <stop offset="1" stop-color="#101820"/>
+          </linearGradient>
+          <linearGradient id="g2" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0" stop-color="#3ddc97" stop-opacity=".9"/>
+            <stop offset="1" stop-color="#22b27a" stop-opacity=".55"/>
+          </linearGradient>
+        </defs>
+        <rect width="520" height="340" fill="url(#g1)"/>
+        <g opacity=".5" stroke="#2b3c4a">
+          <path d="M0 70h520M0 140h520M0 210h520M0 280h520"/>
+          <path d="M90 0v340M180 0v340M270 0v340M360 0v340M450 0v340"/>
+        </g>
+        <circle cx="120" cy="120" r="58" fill="none" stroke="#2f4a5c" stroke-width="2"/>
+        <circle cx="120" cy="120" r="38" fill="none" stroke="#3ddc97" stroke-width="2" opacity=".7"/>
+        <circle cx="120" cy="120" r="8" fill="#3ddc97"/>
+
+        <rect x="215" y="66" width="250" height="140" rx="10" fill="#0f1a22" stroke="#2b3c4a"/>
+        <rect x="228" y="79" width="224" height="96" rx="6" fill="#14212a"/>
+        <path d="M310 108v38l30-19z" fill="url(#g2)"/>
+        <rect x="228" y="185" width="90" height="6" rx="3" fill="#2b3c4a"/>
+        <rect x="228" y="185" width="54" height="6" rx="3" fill="#3ddc97"/>
+        <rect x="228" y="198" width="58" height="4" rx="2" fill="#243340"/>
+        <rect x="390" y="198" width="62" height="4" rx="2" fill="#243340"/>
+
+        <g transform="translate(215,235)">
+          <rect width="250" height="66" rx="9" fill="#121d25" stroke="#2b3c4a"/>
+          <rect x="12" y="16" width="52" height="34" rx="5" fill="#1b2c36"/>
+          <path d="M30 25v16l13-8z" fill="#3ddc97"/>
+          <rect x="76" y="18" width="120" height="7" rx="3.5" fill="#2b3c4a"/>
+          <rect x="76" y="32" width="82" height="6" rx="3" fill="#223140"/>
+          <rect x="76" y="44" width="100" height="6" rx="3" fill="#223140"/>
+          <circle cx="224" cy="33" r="12" fill="#1b2c36" stroke="#3ddc97"/>
+          <path d="M220 27v12l9-6z" fill="#3ddc97"/>
+        </g>
+
+        <g stroke="#3ddc97" stroke-width="2" opacity=".85">
+          <path d="M40 250v-26M52 250v-40M64 250v-18M76 250v-34M88 250v-22"/>
+        </g>
+        <circle cx="470" cy="70" r="4" fill="#ff6b8a"/>
+        <circle cx="440" cy="44" r="3" fill="#ffc857"/>
+      </svg>
+      <div class="hero-cap">
+        <span>正在整理：2026 秋季华语 MV 新增片单</span>
+        <span>11-25 09:40</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="layout">
+
+  <!-- 左频道索引 -->
+  <aside class="left" aria-label="频道索引">
+    <div class="side-block">
+      <div class="side-title">频道索引</div>
+      <nav class="channel-list" aria-label="内容频道">
+        <a href="/#overview">领域概览 <span>01</span></a>
+        <a href="/#picks">华语流行 MV <span>02</span></a>
+        <a href="/#updates">更新动态 <span>03</span></a>
+        <a href="/#cats">曲风分类 <span>04</span></a>
+        <a href="/#deep">版本差异解析 <span>05</span></a>
+        <a href="/#guide">观看路径指南 <span>06</span></a>
+        <a href="/#faq">常见问答 <span>07</span></a>
+        <a href="/#comments">社区评论 <span>08</span></a>
+        <a href="/#news">影像资讯 <span>09</span></a>
+        <a href="/#related">延伸方向 <span>10</span></a>
+        <a href="/#rank">本周榜单 <span>11</span></a>
+        <a href="/#timeline">上线时间线 <span>12</span></a>
+      </nav>
+    </div>
+
+    <div class="side-block">
+      <div class="side-title">小草原创计划</div>
+      <p style="font-size:12.5px;color:var(--text-2);line-height:1.75">面向独立乐队与个人创作者的影像扶持单元，2026 年第四季已收录 36 支短片，题材覆盖城市民谣、合成器流行与方言说唱。</p>
+      <div class="side-note">投稿截止：2026-12-10<br>下批上线：2026-12-18</div>
+    </div>
+  </aside>
+
+  <!-- 主内容 -->
+  <main>
+
+    <!-- 1 领域概览 -->
+    <section class="panel sec" id="overview" aria-labelledby="h-overview">
+      <div class="sec-head">
+        <h2 id="h-overview">华语音乐影像领域概览</h2>
+        <span class="hint">2026 年 11 月整理</span>
+      </div>
+      <div class="overview">
+        <p>音乐影像（MV）在今天早已不只是歌曲的附属宣传物料。它至少包含四条彼此不同的支线：<strong>商业发行的官方 MV</strong>、<strong>导演剪辑或视觉专辑版本</strong>、<strong>独立创作者的低成本短片</strong>，以及<strong>现场演出与录音室 Session 影像</strong>。这四条支线的制作逻辑、观看期待和评判标准差别很大，混在一起比较容易失焦。</p>
+        <p>堂mv在线小草mv 收录的重点放在前三条。官方 MV 通常有完整的宣发预算，看点在美术、调色和叙事编排；导演剪辑版往往更长、更暗，会补回被平台压缩的段落；而小草计划这类草根短片，预算有限却常有更冒险的镜头语言，很多创作者正是从这一层被行业看见。</p>
+        <p>当前值得关注的具体方向包括：2026 年秋季一批以南方城市为背景的叙事型 MV 集中上线；合成器流行回潮带来大量霓虹色调的夜景短片；方言说唱影像在字幕处理上出现了新的共识；以及几支以 16 毫米胶片拍摄的怀旧向作品，画质颗粒感成为讨论焦点。</p>
+        <div class="ov-grid">
+          <div class="ov-cell">
+            <h4>叙事型 MV</h4>
+            <p>有完整人物线与对白，时长常超过 5 分钟，接近微型电影。看点在剧本与表演，不在歌曲本身。</p>
+          </div>
+          <div class="ov-cell">
+            <h4>视觉专辑</h4>
+            <p>整张专辑连贯拍摄，单支之间共享场景与角色。适合按顺序看，跳看会丢失线索。</p>
+          </div>
+          <div class="ov-cell">
+            <h4>草根短片</h4>
+            <p>预算低、周期短，常见手持与自然光。优点是生猛，缺点是收音与调色不稳定。</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 2 精选内容 -->
+    <section class="panel sec" id="picks" aria-labelledby="h-picks">
+      <div class="sec-head">
+        <h2 id="h-picks">精选 MV 条目推荐</h2>
+        <a class="more-link" href="/#updates">查看全部更新 →</a>
+      </div>
+
+      <div id="searchEmpty" role="status">没有匹配的条目。换个歌手名、曲名或曲风关键词试试，例如「雨巷」「合成器」「方言」。</div>
+
+      <div class="card-grid" id="cardGrid">
+
+        <article class="card" data-key="雨巷回声 城市民谣 导演剪辑 南方">
+          <div class="card-cover">
+            <img src="https://picsum.photos/seed/yuxiang-mv01/400/300" width="400" height="300" loading="lazy" alt="《雨巷回声》导演剪辑版 MV 封面">
+            <span class="card-type">城市民谣</span>
+          </div>
+          <div class="card-body">
+            <h3>《雨巷回声》导演剪辑版</h3>
+            <p class="desc">比官方版多出 2 分 40 秒，补回老街拆迁的空镜与一段无伴奏清唱。镜头从巷口一路推进到天台，是全片情绪最完整的段落。</p>
+            <div class="tags"><span class="tag">导演剪辑</span><span class="tag">南方城市</span><span class="tag">16mm</span></div>
+            <div class="card-meta"><span class="score">9.1 分</span><span class="hot">今日 +3,240 播放</span></div>
+          </div>
+        </article>
+
+        <article class="card" data-key="霓虹以北 合成器流行 夜景 视觉专辑">
+          <div class="card-cover">
+            <img src="https://picsum.photos/seed/nihong-mv02/400/300" width="400" height="300" loading="lazy" alt="《霓虹以北》视觉专辑夜景画面">
+            <span class="card-type">合成器流行</span>
+          </div>
+          <div class="card-body">
+            <h3>《霓虹以北》视觉专辑</h3>
+            <p class="desc">八首歌连成一条从黄昏到黎明的夜行线，共享同一辆出租车与同一位配角。建议按曲序观看，单看第二支会丢失时间线索。</p>
+            <div class="tags"><span class="tag">视觉专辑</span><span class="tag">夜景调色</span><span class="tag">连拍叙事</span></div>
+            <div class="card-meta"><span class="score">8.8 分</span><span class="hot">今日 +2,870 播放</span></div>
+          </div>
+        </article>
+
+        <article class="card" data-key="潮汕夜话 方言说唱 字幕 草根">
+          <div class="card-cover">
+            <img src="https://picsum.photos/seed/chaoshan-mv03/400/300" width="400" height="300" loading="lazy" alt="《潮汕夜话》方言说唱 MV 街头画面">
+            <span class="card-type">方言说唱</span>
+          </div>
+          <div class="card-body">
+            <h3>《潮汕夜话》方言短片</h3>
+            <p class="desc">小草计划第四季入选作品，全程潮汕话演唱，配双行字幕（方言注音＋普通话意译）。夜市场景为实拍，没有补光。</p>
+            <div class="tags"><span class="tag">方言</span><span class="tag">双行字幕</span><span class="tag">实景拍摄</span></div>
+            <div class="card-meta"><span class="score">8.5 分</span><span class="hot">今日 +1,960 播放</span></div>
+          </div>
+        </article>
+
+        <article class="card" data-key="白噪音房间 独立摇滚 一镜到底 录音室">
+          <div class="card-cover">
+            <img src="https://picsum.photos/seed/baizaoyin-mv04/400/300" width="400" height="300" loading="lazy" alt="《白噪音房间》一镜到底录音室影像">
+            <span class="card-type">独立摇滚</span>
+          </div>
+          <div class="card-body">
+            <h3>《白噪音房间》一镜到底版</h3>
+            <p class="desc">全程 4 分 12 秒无剪辑，摄影机在排练室内绕行一圈，最后停在鼓手正脸。看点在乐队现场演奏的同步性。</p>
+            <div class="tags"><span class="tag">一镜到底</span><span class="tag">现场收音</span><span class="tag">排练室</span></div>
+            <div class="card-meta"><span class="score">8.9 分</span><span class="hot">今日 +2,410 播放</span></div>
+          </div>
+        </article>
+
+        <article class="card" data-key="海雾来信 民谣 胶片 情书叙事">
+          <div class="card-cover">
+            <img src="https://picsum.photos/seed/haiwu-mv05/400/300" width="400" height="300" loading="lazy" alt="《海雾来信》胶片质感海边画面">
+            <span class="card-type">民谣</span>
+          </div>
+          <div class="card-body">
+            <h3>《海雾来信》胶片版</h3>
+            <p class="desc">以一封未寄出的信串联三段海边场景，全片使用过期胶片拍摄，色彩偏青。字幕为手写体，需在明亮环境观看。</p>
+            <div class="tags"><span class="tag">过期胶片</span><span class="tag">书信叙事</span><span class="tag">海岸线</span></div>
+            <div class="card-meta"><span class="score">8.3 分</span><span class="hot">今日 +1,540 播放</span></div>
+          </div>
+        </article>
+
+        <article class="card" data-key="第七个夏天 流行 校园 长镜头 毕业">
+          <div class="card-cover">
+            <img src="https://picsum.photos/seed/diqixiatian-mv06/400/300" width="400" height="300" loading="lazy" alt="《第七个夏天》校园长镜头 MV 画面">
+            <span class="card-type">流行</span>
+          </div>
+          <div class="card-body">
+            <h3>《第七个夏天》毕业长镜头</h3>
+            <p class="desc">用一条 6 分钟的长镜头穿过整栋教学楼，从教室到天台，群演超过 120 人。调度难度是这支片子的主要看点。</p>
+            <div class="tags"><span class="tag">长镜头</span><span class="tag">校园</span><span class="tag">群演调度</span></div>
+            <div class="card-meta"><span class="score">8.6 分</span><span class="hot">今日 +2,180 播放</span></div>
+          </div>
+        </article>
+
+        <article class="card" data-key="玻璃工厂 电子 工业 空间 舞蹈">
+          <div class="card-cover">
+            <img src="https://picsum.photos/seed/boligongchang-mv07/400/300" width="400" height="300" loading="lazy" alt="《玻璃工厂》工业空间现代舞影像">
+            <span class="card-type">电子</span>
+          </div>
+          <div class="card-body">
+            <h3>《玻璃工厂》空间舞蹈版</h3>
+            <p class="desc">在废弃玻璃厂内完成，三位现代舞者与机械臂共同演出。剪辑节奏贴合鼓点，中段有一次明显的速度变化。</p>
+            <div class="tags"><span class="tag">现代舞</span><span class="tag">工业空间</span><span class="tag">机械臂</span></div>
+            <div class="card-meta"><span class="score">8.7 分</span><span class="hot">今日 +2,050 播放</span></div>
+          </div>
+        </article>
+
+        <article class="card" data-key="早班车 城市 通勤 定格动画 手作">
+          <div class="card-cover">
+            <img src="https://picsum.photos/seed/zaobanche-mv08/400/300" width="400" height="300" loading="lazy" alt="《早班车》定格动画通勤场景">
+            <span class="card-type">定格动画</span>
+          </div>
+          <div class="card-body">
+            <h3>《早班车》纸偶定格版</h3>
+            <p class="desc">小草计划中唯一一支全定格作品，用纸偶还原早高峰车厢。每秒 12 帧，制作周期 7 个月，片尾附有布景花絮。</p>
+            <div class="tags"><span class="tag">定格动画</span><span class="tag">纸偶</span><span class="tag">通勤题材</span></div>
+            <div class="card-meta"><span class="score">9.0 分</span><span class="hot">今日 +3,060 播放</span></div>
+          </div>
+        </article>
+
+        <article class="card" data-key="山歌 采样 民族 电子 混搭">
+          <div class="card-cover">
+            <img src="https://picsum.photos/seed/shange-mv09/400/300" width="400" height="300" loading="lazy" alt="《山歌采样》民族元素电子 MV 画面">
+            <span class="card-type">民族电子</span>
+          </div>
+          <div class="card-body">
+            <h3>《山歌采样》混搭版</h3>
+            <p class="desc">把三段不同地区的山歌采样叠进电子节拍，影像在梯田与城市天台之间反复切换，形成两种空间的对照。</p>
+            <div class="tags"><span class="tag">采样</span><span class="tag">山歌</span><span class="tag">空间对照</span></div>
+            <div class="card-meta"><span class="score">8.4 分</span><span class="hot">今日 +1,780 播放</span></div>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- 3 更新动态 -->
+    <section class="panel sec" id="updates" aria-labelledby="h-updates">
+      <div class="sec-head">
+        <h2 id="h-updates">最新更新与上线动态</h2>
+        <span class="hint">截至 2026-11-25</span>
+      </div>
+      <div class="update-list">
+        <div class="update-item">
+          <span class="u-time">今天 09:40</span>
+          <div class="u-main"><h4>《雨巷回声》导演剪辑版</h4><p>1080P 高清源已替换，补回此前缺失的 2 分 40 秒天台段落。</p></div>
+          <span class="u-badge new">新版本</span>
+        </div>
+        <div class="update-item">
+          <span class="u-time">今天 08:15</span>
+          <div class="u-main"><h4>《早班车》纸偶定格版</h4><p>新增片尾布景花絮 4 分钟，含分镜手稿扫描件。</p></div>
+          <span class="u-badge new">新增花絮</span>
+        </div>
+        <div class="update-item">
+          <span class="u-time">昨天 21:10</span>
+          <div class="u-main"><h4>《潮汕夜话》方言短片</h4><p>字幕更新为双行版本，方言注音修正 11 处。</p></div>
+          <span class="u-badge">字幕修订</span>
+        </div>
+        <div class="update-item">
+          <span class="u-time">昨天 17:30</span>
+          <div class="u-main"><h4>《霓虹以北》视觉专辑</h4><p>第四支《凌晨三点》单独上线，补齐原专辑缺失章节。</p></div>
+          <span class="u-badge">补档</span>
+        </div>
+        <div class="update-item">
+          <span class="u-time">11 月 23 日</span>
+          <div class="u-main"><h4>《白噪音房间》一镜到底版</h4><p>新增 4K 版本，文件体积较大，建议在稳定网络下观看。</p></div>
+          <span class="u-badge">清晰度升级</span>
+        </div>
+        <div class="update-item">
+          <span class="u-time">11 月 22 日</span>
+          <div class="u-main"><h4>小草计划第四季第 7 批</h4><p>上线 6 支独立短片，含 2 支方言作品与 1 支定格动画。</p></div>
+          <span class="u-badge new">批次上线</span>
+        </div>
+        <div class="update-item">
+          <span class="u-time">11 月 20 日</span>
+          <div class="u-main"><h4>《玻璃工厂》空间舞蹈版</h4><p>收录幕后制作访谈文字稿，含机械臂编程说明。</p></div>
+          <span class="u-badge">资料补充</span>
+        </div>
+        <div class="update-item">
+          <span class="u-time">11 月 18 日</span>
+          <div class="u-main"><h4>《海雾来信》胶片版</h4><p>修正片头字幕时间轴错位问题，画面未改动。</p></div>
+          <span class="u-badge">技术修正</span>
+        </div>
+        <div class="update-item">
+          <span class="u-time">11 月 16 日</span>
+          <div class="u-main"><h4>《第七个夏天》毕业长镜头</h4><p>新增导演分镜对照，可逐段查看长镜头调度方案。</p></div>
+          <span class="u-badge">资料补充</span>
+        </div>
+        <div class="update-item">
+          <span class="u-time">11 月 14 日</span>
+          <div class="u-main"><h4>《山歌采样》混搭版</h4><p>补充三段采样源曲目的出处说明与授权状态。</p></div>
+          <span class="u-badge">信息补全</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4 分类入口 -->
+    <section class="panel sec" id="cats" aria-labelledby="h-cats">
+      <div class="sec-head">
+        <h2 id="h-cats">按曲风与形态分类</h2>
+        <span class="hint">8 个垂类入口</span>
+      </div>
+      <div class="cat-grid">
+        <a class="cat" href="/#picks"><h4>城市民谣</h4><p>以城市街景与日常叙事为主的抒情影像。</p><span class="cnt">收录 312 支</span></a>
+        <a class="cat" href="/#picks"><h4>合成器流行</h4><p>霓虹色调、夜景推进与复古电子质感。</p><span class="cnt">收录 268 支</span></a>
+        <a class="cat" href="/#picks"><h4>方言说唱</h4><p>方言演唱配双行字幕，地域色彩强烈。</p><span class="cnt">收录 154 支</span></a>
+        <a class="cat" href="/#picks"><h4>独立摇滚</h4><p>排练室实拍与现场收音，强调演奏同步。</p><span class="cnt">收录 226 支</span></a>
+        <a class="cat" href="/#picks"><h4>定格动画</h4><p>纸偶、黏土与手作布景，制作周期长。</p><span class="cnt">收录 47 支</span></a>
+        <a class="cat" href="/#picks"><h4>民族电子</h4><p>采样传统唱腔，与电子节拍叠合。</p><span class="cnt">收录 89 支</span></a>
+        <a class="cat" href="/#picks"><h4>视觉专辑</h4><p>整张专辑连拍，共享场景与角色。</p><span class="cnt">收录 63 部</span></a>
+        <a class="cat" href="/#picks"><h4>小草原创</h4><p>草根创作者扶持单元，低预算高密度。</p><span class="cnt">收录 36 支</span></a>
+      </div>
+    </section>
+
+    <!-- 5 深度解析 -->
+    <section class="panel deep sec" id="deep" aria-labelledby="h-deep">
+      <div class="sec-head">
+        <h2 id="h-deep">深度解析：版本差异与观看判断</h2>
+        <span class="hint">约 800 字</span>
+      </div>
+
+      <h3>官方版与导演剪辑版到底差在哪</h3>
+      <p>同一支 MV 常常存在至少两个版本。官方版受平台时长与宣发节奏约束，通常控制在 3 到 4 分钟，叙事会被压缩成符号化的片段；导演剪辑版则回到创作者手里的原始长度，补回过渡镜头与情绪铺垫。判断该看哪一版，关键看这支片子的重点在<strong>歌曲节奏</strong>还是<strong>叙事完整性</strong>。</p>
+      <div class="compare">
+        <div class="c-head c-left">官方发行版</div>
+        <div class="c-head">导演剪辑版</div>
+        <div class="c-cell c-left">时长 3—4 分钟，剪辑贴合主歌副歌结构</div>
+        <div class="c-cell">时长 5—8 分钟，允许段落留白与长镜头</div>
+        <div class="c-cell c-left">字幕通常只保留歌词</div>
+        <div class="c-cell">常附对白字幕与场景说明</div>
+        <div class="c-cell c-left">适合第一次接触，快速判断是否喜欢</div>
+        <div class="c-cell">适合已熟悉歌曲、想看完整表达的观众</div>
+      </div>
+      <p>以《雨巷回声》为例，官方版把天台段落整段删去，导致结尾的情绪转折显得突兀；导演剪辑版补回之后，人物动机才成立。这类情况在叙事型 MV 中非常普遍，<strong>先看官方版建立印象、再看剪辑版补全理解</strong>是较稳妥的顺序。</p>
+
+      <h3>低成本短片该用什么标准衡量</h3>
+      <p>用商业 MV 的画质标准去衡量小草计划这类草根短片，很容易得出「粗糙」的结论，但这不是合理的比较方式。低预算作品的价值往往在别处：镜头语言的冒险程度、题材的稀缺性、以及创作者对有限资源的调度能力。以下是几个实际可用的判断维度。</p>
+      <ul>
+        <li><strong>声音处理是否认真</strong>：预算再低，收音与环境音的层次仍能反映创作者的态度。</li>
+        <li><strong>场景是否真实可用</strong>：实景拍摄的质感通常优于廉价绿幕，哪怕画面不够干净。</li>
+        <li><strong>是否有明确的视觉主张</strong>：哪怕只有一种色调、一个反复出现的构图，也强过毫无设计的堆砌。</li>
+        <li><strong>字幕与信息是否完整</strong>：方言作品是否配双行字幕，直接影响可看性。</li>
+      </ul>
+
+      <h3>清晰度、帧率与画幅的实际影响</h3>
+      <p>很多人默认「清晰度越高越好」，但在音乐影像里这条并不总成立。以过期胶片拍摄的《海雾来信》为例，颗粒与偏色本身就是表达的一部分，强行套用高锐化算法反而破坏质感。相反，一镜到底的《白噪音房间》因为镜头持续运动，低码率下容易出现拖影，这时 4K 源的价值就非常明显。</p>
+      <ul>
+        <li>手持与长镜头作品：优先选高码率源，减少运动模糊带来的不适。</li>
+        <li>胶片与复古质感作品：标准清晰度往往更接近原始观感。</li>
+        <li>竖屏短片：注意画幅裁切，部分条目在横屏播放时会被裁掉两侧。</li>
+      </ul>
+
+      <h3>方言作品的字幕共识正在形成</h3>
+      <p>2026 年下半年，方言说唱影像在字幕处理上逐渐形成一套做法：上行标注方言读音，下行给出普通话意译，必要时在角落补充俚语注释。《潮汕夜话》是其中执行得较完整的一支，11 月 24 日的字幕修订又修正了 11 处注音。对非母语观众来说，这套双行结构显著降低了理解门槛，也让作品更容易跨地域传播。</p>
+      <p>值得注意的是，并非所有方言作品都愿意加意译，部分创作者认为这会削弱语言的原始力量。这种分歧本身也是当前影像社区讨论的焦点之一。</p>
+    </section>
+
+    <!-- 6 观看路径 -->
+    <section class="panel sec" id="guide" aria-labelledby="h-guide">
+      <div class="sec-head">
+        <h2 id="h-guide">观看路径与投入判断</h2>
+        <span class="hint">从入门到深入的四步</span>
+      </div>
+      <div class="steps">
+        <div class="step">
+          <div>
+            <h4>先用一支流行向作品建立基准</h4>
+            <p>从《第七个夏天》毕业长镜头开始，它的制作规格接近商业标准，能帮你建立对画面、调色与剪辑节奏的基本预期。</p>
+          </div>
+        </div>
+        <div class="step">
+          <div>
+            <h4>再进入视觉专辑，练习连续观看</h4>
+            <p>《霓虹以北》八支连看约 40 分钟。连续观看才能感受到时间线与角色关系的设计，跳看会损失大部分信息。</p>
+          </div>
+        </div>
+        <div class="step">
+          <div>
+            <h4>判断一支片子值不值得投入时间</h4>
+            <p>看三点：是否有明确的视觉主张、声音处理是否认真、时长与叙事密度是否匹配。三点中满足两点，通常值得完整看完。</p>
+          </div>
+        </div>
+        <div class="step">
+          <div>
+            <h4>最后进入草根单元，接受不完美</h4>
+            <p>《早班车》《潮汕夜话》这类作品画质有限，但题材与手法的稀缺性更高。调整预期后再看，收获会明显不同。</p>
+          </div>
+        </div>
+      </div>
+      <p style="font-size:13px;color:var(--text-3);margin-top:14px">同类条目比较时，优先比「叙事是否成立」与「声音是否过关」，画质放在最后。多数情况下，画质差距可以用观看设备弥补，叙事缺口不能。</p>
+    </section>
+
+    <!-- 7 FAQ -->
+    <section class="panel sec" id="faq" aria-labelledby="h-faq">
+      <div class="sec-head">
+        <h2 id="h-faq">常见问答</h2>
+        <span class="hint">6 个高频问题</span>
+      </div>
+
+      <details class="faq-item" open>
+        <summary>第一次接触华语 MV，从哪一支开始看比较好？</summary>
+        <div class="faq-body">
+          <p>建议从制作规格较完整的流行向作品入手，例如《第七个夏天》毕业长镜头。它的叙事清晰、画面稳定，不需要额外背景知识就能看懂，适合建立基本判断。</p>
+          <p>如果更偏好氛围而非故事，可以先看《霓虹以北》的第一支，再决定是否连看整张视觉专辑。</p>
+        </div>
+      </details>
+
+      <details class="faq-item">
+        <summary>导演剪辑版和官方版一般差多少时长？</summary>
+        <div class="faq-body">
+          <p>常见差距在 1 分半到 4 分钟之间。叙事型作品差距更大，纯舞蹈或视觉向作品差距较小。差异主要集中在过渡镜头、环境空镜与对白段落。</p>
+        </div>
+      </details>
+
+      <details class="faq-item">
+        <summary>方言说唱为什么有的配双行字幕，有的只有单行？</summary>
+        <div class="faq-body">
+          <p>双行字幕通常是一行方言注音、一行普通话意译，制作成本更高，需要母语者校对。部分创作者认为意译会削弱语言原味，因此只保留方言字幕。两种做法目前并存，没有统一规范。</p>
+        </div>
+      </details>
+
+      <details class="faq-item">
+        <summary>小草计划的短片多久更新一批？</summary>
+        <div class="faq-body">
+          <p>2026 年第四季保持每两到三周上线一批，每批 4 到 7 支。11 月 22 日上线的是本季第 7 批，下一批预计 12 月 18 日前后，具体以公告条信息为准。</p>
+        </div>
+      </details>
+
+      <details class="faq-item">
+        <summary>低成本 MV 和商业 MV 该用同一套标准比较吗？</summary>
+        <div class="faq-body">
+          <p>不建议。商业 MV 可以比较美术、调色与特效完成度；低成本作品更应看声音处理、场景真实度与视觉主张是否明确。用画质单一维度比较，容易错过题材上的稀缺价值。</p>
+        </div>
+      </details>
+
+      <details class="faq-item">
+        <summary>过期胶片拍摄的作品，画质差是正常的吗？</summary>
+        <div class="faq-body">
+          <p>是正常的。过期胶片本身会产生不可控的偏色、划痕与颗粒，这些被视为表达的一部分。这类作品通常不建议用高锐化或降噪算法播放，标准清晰度反而更接近原始观感。</p>
+        </div>
+      </details>
+    </section>
+
+    <!-- 8 用户评论 -->
+    <section class="panel sec" id="comments" aria-labelledby="h-comments">
+      <div class="sec-head">
+        <h2 id="h-comments">社区评论</h2>
+        <span class="hint">近 7 天 · 15 条</span>
+      </div>
+      <div class="comment-grid">
+
+        <div class="comment">
+          <div class="c-top"><span class="avatar" style="background:#3ddc97">林</span><span class="c-name">林间慢车</span><span class="c-time">今天 10:12</span></div>
+          <p>《雨巷回声》补回的天台段落是真的关键，之前看官方版一直觉得结尾莫名其妙，现在整条人物线才串起来。</p>
+        </div>
+
+        <div class="comment">
+          <div class="c-top"><span class="avatar" style="background:#ffc857">陈</span><span class="c-name">陈默的耳机</span><span class="c-time">今天 09:38</span></div>
+          <p>霓虹以北连看确实不一样。单独看第二支以为是普通夜店戏，连着看才发现出租车里那位配角一直在换衣服。</p>
+        </div>
+
+        <div class="comment">
+          <div class="c-top"><span class="avatar" style="background:#ff6b8a">阿</span><span class="c-name">阿柚不加冰</span><span class="c-time">今天 08:55</span></div>
+          <p>潮汕夜话的双行字幕做得挺细，注音那行比我想象中准。就是有些俚语注释位置会挡住画面，希望再调一下。</p>
+        </div>
+
+        <div class="comment">
+          <div class="c-top"><span class="avatar" style="background:#8fb8ff">老</span><span class="c-name">老周看片</span><span class="c-time">昨天 23:40</span></div>
+          <p>白噪音房间一镜走完是真的厉害，鼓手那段手部动作和音轨完全对得上，不像后期对的口型。</p>
+        </div>
+
+        <div class="comment">
+          <div class="c-top"><span class="avatar" style="background:#c9a6ff">小</span><span class="c-name">小满在南方</span><span class="c-time">昨天 22:06</span></div>
+          <p>海雾来信的过期胶片质感我挺喜欢的，但手写体字幕真的看不清，得把亮度调到最高。这点算是小缺点吧。</p>
+        </div>
+
+        <div class="comment">
+          <div class="c-top"><span class="avatar" style="background:#3ddc97">周</span><span class="c-name">周末不加班</span><span class="c-time">昨天 20:31</span></div>
+          <p>第七个夏天那条长镜头，群演走位居然没穿帮，120 多人调度到这个程度挺难得。分镜对照也做得不错。</p>
+        </div>
+
+        <div class="comment">
+          <div class="c-top"><span class="avatar" style="background:#ffc857">机</span><span class="c-name">机械键盘诗人</span><span class="c-time">昨天 18:47</span></div>
+          <p>玻璃工厂的机械臂编舞有点意思，但中段变速那一下我看得有点晕，可能是我设备拖影的问题。</p>
+        </div>
+
+        <div class="comment">
+          <div class="c-top"><span class="avatar" style="background:#ff6b8a">纸</span><span class="c-name">纸飞机飞了</span><span class="c-time">昨天 16:20</span></div>
+          <p>早班车是定格动画这件事我看了花絮才知道，7 个月做 4 分钟，这个投入量真的服气。片尾布景手稿值得单独看。</p>
+        </div>
+
+        <div class="comment">
+          <div class="c-top"><span class="avatar" style="background:#8fb8ff">半</span><span class="c-name">半糖去冰</span><span class="c-time">11 月 24 日 21:15</span></div>
+          <p>山歌采样那支前后空间的切换有点生硬，梯田和天台之间跳得太快了。不过采样本身选得好。</p>
+        </div>
+
+        <div class="comment">
+          <div class="c-top"><span class="avatar" style="background:#c9a6ff">夜</span><span class="c-name">夜航船票</span><span class="c-time">11 月 24 日 19:02</span></div>
+          <p>想问一下官方版和剪辑版都看会不会重复？我一般只看一个，怕浪费时间。</p>
+        </div>
+
+        <div class="comment">
+          <div class="c-top"><span class="avatar" style="background:#3ddc97">苏</span><span class="c-name">苏打汽水味</span><span class="c-time">11 月 24 日 14:30</span></div>
+          <p>回楼上，叙事型建议两个都看，剪辑版补的是关键信息。纯视觉向的看一个就够了，差别不大。</p>
+        </div>
+
+        <div class="comment">
+          <div class="c-top"><span class="avatar" style="background:#ffc857">一</span><span class="c-name">一只耳猫</span><span class="c-time">11 月 23 日 23:48</span></div>
+          <p>小草计划这一批整体比上一批好，至少收音明显认真了。上一批有几支环境音糊成一片。</p>
+        </div>
+
+        <div class="comment">
+          <div class="c-top"><span class="avatar" style="background:#ff6b8a">落</span><span class="c-name">落日放映员</span><span class="c-time">11 月 23 日 20:11</span></div>
+          <p>方言作品加意译我觉得是好事，不然外省人真的听不懂。但也理解创作者想保留原味的想法，各有道理。</p>
+        </div>
+
+        <div class="comment">
+          <div class="c-top"><span class="avatar" style="background:#8fb8ff">地</span><span class="c-name">地铁三号线</span><span class="c-time">11 月 22 日 22:37</span></div>
+          <p>白噪音房间 4K 源文件是真的大，我手机直接卡住了。还是切回 1080P 看比较顺。</p>
+        </div>
+
+        <div class="comment">
+          <div class="c-top"><span class="avatar" style="background:#c9a6ff">慢</span><span class="c-name">慢速快门</span><span class="c-time">11 月 22 日 10:05</span></div>
+          <p>海雾来信那种偏青的色调很适合这个题材，就是字幕用深色会更清楚。整体还是喜欢的。</p>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- 9 相关资讯 -->
+    <section class="panel sec" id="news" aria-labelledby="h-news">
+      <div class="sec-head">
+        <h2 id="h-news">影像资讯</h2>
+        <span class="hint">11 月动态</span>
+      </div>
+      <div class="news-list">
+
+        <article class="news-item">
+          <img src="https://picsum.photos/seed/news-yuxiang11/600/400" width="600" height="400" loading="lazy" alt="《雨巷回声》导演剪辑版上线报道配图">
+          <div>
+            <span class="date">2026-11-25</span>
+            <h4>《雨巷回声》导演剪辑版上线，补回 2 分 40 秒天台段落</h4>
+            <p>剪辑版恢复原始叙事顺序，片长增至 7 分 12 秒，同时替换为 1080P 高清源。官方版仍保留在目录中。</p>
+          </div>
+        </article>
+
+        <article class="news-item">
+          <img src="https://picsum.photos/seed/news-nihong11/600/400" width="600" height="400" loading="lazy" alt="《霓虹以北》视觉专辑补档报道配图">
+          <div>
+            <span class="date">2026-11-24</span>
+            <h4>《霓虹以北》补齐缺失章节，《凌晨三点》单独上线</h4>
+            <p>此前因制作延期未上线的第四支现已加入专辑，八支连看的时间线终于完整。</p>
+          </div>
+        </article>
+
+        <article class="news-item">
+          <img src="https://picsum.photos/seed/news-chaoshan11/600/400" width="600" height="400" loading="lazy" alt="《潮汕夜话》字幕修订报道配图">
+          <div>
+            <span class="date">2026-11-24</span>
+            <h4>《潮汕夜话》双行字幕修订完成，修正 11 处方言注音</h4>
+            <p>修订由母语校对参与，同时调整了部分俚语注释的位置，减少对画面的遮挡。</p>
+          </div>
+        </article>
+
+        <article class="news-item">
+          <img src="https://picsum.photos/seed/news-xiaocao11/600/400" width="600" height="400" loading="lazy" alt="小草计划第四季第 7 批上线配图">
+          <div>
+            <span class="date">2026-11-22</span>
+            <h4>小草计划第四季第 7 批上线，6 支短片含 1 支定格动画</h4>
+            <p>本批作品题材集中在城市通勤与方言叙事，其中《早班车》为全季唯一全定格作品。</p>
+          </div>
+        </article>
+
+        <article class="news-item">
+          <img src="https://picsum.photos/seed/news-baizaoyin11/600/400" width="600" height="400" loading="lazy" alt="《白噪音房间》4K 版本上线配图">
+          <div>
+            <span class="date">2026-11-23</span>
+            <h4>《白噪音房间》一镜到底版新增 4K 源，运动拖影明显改善</h4>
+            <p>高码率版本对持续运动的镜头更友好，但文件体积较大，移动端播放需注意缓存空间。</p>
+          </div>
+        </article>
+
+        <article class="news-item">
+          <img src="https://picsum.photos/seed/news-fangyan11/600/400" width="600" height="400" loading="lazy" alt="方言 MV 字幕规范讨论配图">
+          <div>
+            <span class="date">2026-11-18</span>
+            <h4>方言 MV 字幕规范引发讨论，双行意译成社区焦点</h4>
+            <p>支持者认为意译能扩大传播范围，反对者担心削弱语言原味。目前尚无统一规范，两种做法并存。</p>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- 10 相关推荐 -->
+    <section class="panel sec" id="related" aria-labelledby="h-related">
+      <div class="sec-head">
+        <h2 id="h-related">延伸方向索引</h2>
+        <span class="hint">按主题延伸</span>
+      </div>
+      <div class="tagcloud">
+        <a href="/#picks">过期胶片质感 MV</a>
+        <a href="/#picks">一镜到底长镜头</a>
+        <a href="/#picks">双行字幕方言作品</a>
+        <a href="/#picks">视觉专辑连看</a>
+        <a href="/#picks">纸偶与黏土定格</a>
+        <a href="/#picks">排练室现场收音</a>
+        <a href="/#picks">城市通勤题材</a>
+        <a href="/#picks">山歌采样与电子叠合</a>
+      </div>
+    </section>
+
+    <!-- 11 榜单 -->
+    <section class="panel sec" id="rank" aria-labelledby="h-rank">
+      <div class="sec-head">
+        <h2 id="h-rank">本周播放榜单</h2>
+        <span class="hint">统计周期 11-19 至 11-25</span>
+      </div>
+      <div class="rank-list">
+        <div class="rank-item"><div class="rank-main"><h4>雨巷回声（导演剪辑版）</h4><span>城市民谣 · 16mm</span></div><span class="rank-val">18.6 万</span></div>
+        <div class="rank-item"><div class="rank-main"><h4>早班车（纸偶定格版）</h4><span>定格动画 · 小草计划</span></div><span class="rank-val">15.2 万</span></div>
+        <div class="rank-item"><div class="rank-main"><h4>霓虹以北（视觉专辑）</h4><span>合成器流行 · 连拍叙事</span></div><span class="rank-val">13.8 万</span></div>
+        <div class="rank-item"><div class="rank-main"><h4>白噪音房间（一镜到底版）</h4><span>独立摇滚 · 现场收音</span></div><span class="rank-val">11.4 万</span></div>
+        <div class="rank-item"><div class="rank-main"><h4>潮汕夜话（方言短片）</h4><span>方言说唱 · 双行字幕</span></div><span class="rank-val">9.7 万</span></div>
+        <div class="rank-item"><div class="rank-main"><h4>第七个夏天（毕业长镜头）</h4><span>流行 · 群演调度</span></div><span class="rank-val">8.9 万</span></div>
+        <div class="rank-item"><div class="rank-main"><h4>玻璃工厂（空间舞蹈版）</h4><span>电子 · 机械臂编舞</span></div><span class="rank-val">7.2 万</span></div>
+        <div class="rank-item"><div class="rank-main"><h4>海雾来信（胶片版）</h4><span>民谣 · 过期胶片</span></div><span class="rank-val">6.5 万</span></div>
+      </div>
+    </section>
+
+    <!-- 12 时间线 -->
+    <section class="panel sec" id="timeline" aria-labelledby="h-timeline">
+      <div class="sec-head">
+        <h2 id="h-timeline">小草计划上线时间线</h2>
+        <span class="hint">第四季</span>
+      </div>
+      <div class="timeline">
+        <div class="tl-item">
+          <time>2026-11-22</time>
+          <h4>第 7 批上线 · 6 支</h4>
+          <p>含《早班车》定格动画与两支方言作品，收音标准较上批提升。</p>
+        </div>
+        <div class="tl-item">
+          <time>2026-11-01</time>
+          <h4>第 6 批上线 · 5 支</h4>
+          <p>以城市夜景为主题，其中三支使用同一组天台场景。</p>
+        </div>
+        <div class="tl-item">
+          <time>2026-10-12</time>
+          <h4>第 5 批上线 · 7 支</h4>
+          <p>首次出现完整视觉专辑结构，两支作品共享角色设定。</p>
+        </div>
+        <div class="tl-item">
+          <time>2026-09-20</time>
+          <h4>第 4 批上线 · 4 支</h4>
+          <p>题材转向方言叙事，字幕处理方式开始分化。</p>
+        </div>
+        <div class="tl-item">
+          <time>2026-12-18</time>
+          <h4>第 8 批预告</h4>
+          <p>预计上线 5 至 6 支，含一支实验动画与两支乐队现场 Session。</p>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- 右辅助栏 -->
+  <aside class="right" aria-label="辅助信息">
+    <div class="side-block">
+      <div class="side-title">热榜速览</div>
+      <a class="hot-item" href="/#picks"><span class="hot-num">1</span><div class="hot-main"><h4>雨巷回声 导演剪辑版</h4><span>城市民谣 · 9.1 分</span></div></a>
+      <a class="hot-item" href="/#picks"><span class="hot-num">2</span><div class="hot-main"><h4>早班车 纸偶定格版</h4><span>定格动画 · 9.0 分</span></div></a>
+      <a class="hot-item" href="/#picks"><span class="hot-num">3</span><div class="hot-main"><h4>白噪音房间 一镜到底</h4><span>独立摇滚 · 8.9 分</span></div></a>
+      <a class="hot-item" href="/#picks"><span class="hot-num">4</span><div class="hot-main"><h4>霓虹以北 视觉专辑</h4><span>合成器流行 · 8.8 分</span></div></a>
+      <a class="hot-item" href="/#picks"><span class="hot-num">5</span><div class="hot-main"><h4>玻璃工厂 空间舞蹈版</h4><span>电子 · 8.7 分</span></div></a>
+      <div class="side-note">榜单按近 7 天播放与收藏加权，每日 09:00 刷新。</div>
+    </div>
+
+    <div class="side-block">
+      <div class="side-title">编辑私藏</div>
+      <div class="pick-list">
+        <a class="pick" href="/#picks">
+          <img src="https://picsum.photos/seed/pick-yuxiang21/400/300" width="400" height="300" loading="lazy" alt="《雨巷回声》天台段落截帧">
+          <div><h4>雨巷回声 天台段落</h4><span>全片情绪支点</span></div>
+        </a>
+        <a class="pick" href="/#picks">
+          <img src="https://picsum.photos/seed/pick-zaobanche22/400/300" width="400" height="300" loading="lazy" alt="《早班车》纸偶布景特写">
+          <div><h4>早班车 布景花絮</h4><span>分镜手稿扫描</span></div>
+        </a>
+        <a class="pick" href="/#picks">
+          <img src="https://picsum.photos/seed/pick-haiwu23/400/300" width="400" height="300" loading="lazy" alt="《海雾来信》海边过期胶片画面">
+          <div><h4>海雾来信 海岸空镜</h4><span>过期胶片实拍</span></div>
+        </a>
+      </div>
+    </div>
+
+    <div class="side-block">
+      <div class="side-title">观看提示</div>
+      <div class="side-note" style="border-top:0;margin-top:0;padding-top:0">
+        方言作品建议开启字幕；胶片类作品不建议开启锐化；4K 源在移动端播放前请确认缓存空间。
+      </div>
+    </div>
+  </aside>
+
+</div>
+
+<footer class="site-foot">
+  <div class="foot-inner">
+    <div class="foot-brand">
+      <h3>堂mv在线小草mv</h3>
+      <p>华语音乐影像与草根原创短片的目录站。按歌手、曲风、导演与年份归档，标注版本差异、清晰度与字幕情况，帮助观众判断先看哪一支。</p>
+    </div>
+    <div class="foot-col">
+      <h4>内容频道</h4>
+      <a href="/#overview">领域概览</a>
+      <a href="/#picks">精选 MV</a>
+      <a href="/#updates">更新动态</a>
+      <a href="/#cats">曲风分类</a>
+    </div>
+    <div class="foot-col">
+      <h4>深度与社区</h4>
+      <a href="/#deep">版本差异解析</a>
+      <a href="/#guide">观看路径</a>
+      <a href="/#comments">社区评论</a>
+      <a href="/#faq">常见问答</a>
+    </div>
+    <div class="foot-col">
+      <h4>数据与索引</h4>
+      <a href="/#rank">本周榜单</a>
+      <a href="/#timeline">上线时间线</a>
+      <a href="/#news">影像资讯</a>
+      <a href="/#related">延伸方向</a>
+    </div>
+  </div>
+  <div class="foot-bottom">
+    <span>条目信息与播放数据为目录整理用示例，制作与版权归属以原作者及发行方为准。</span>
+    <span>© 2026 堂mv在线小草mv · 内容索引站</span>
+  </div>
+</footer>
+
+<script>
+(function(){
+  var menuBtn = document.getElementById('menuBtn');
+  var nav = document.getElementById('mainNav');
+  if(menuBtn && nav){
+    menuBtn.addEventListener('click', function(){
+      var open = nav.classList.toggle('open');
+      menuBtn.setAttribute('aria-expanded', open ? 'true' : 'false');
+    });
+    nav.addEventListener('click', function(e){
+      if(e.target.tagName === 'A' && nav.classList.contains('open')){
+        nav.classList.remove('open');
+        menuBtn.setAttribute('aria-expanded','false');
+      }
+    });
+  }
+
+  var input = document.getElementById('searchInput');
+  var btn = document.getElementById('searchBtn');
+  var grid = document.getElementById('cardGrid');
+  var empty = document.getElementById('searchEmpty');
+
+  function runSearch(){
+    if(!input || !grid) return;
+    var q = input.value.trim().toLowerCase();
+    var cards = grid.querySelectorAll('.card');
+    var hit = 0;
+    cards.forEach(function(card){
+      var key = (card.getAttribute('data-key') || '') + ' ' + card.textContent.toLowerCase();
+      var match = q === '' || key.indexOf(q) > -1;
+      card.style.display = match ? '' : 'none';
+      if(match) hit++;
+    });
+    if(empty) empty.classList.toggle('show', hit === 0);
+  }
+
+  if(btn) btn.addEventListener('click', runSearch);
+  if(input){
+    input.addEventListener('keydown', function(e){
+      if(e.key === 'Enter'){ e.preventDefault(); runSearch(); }
+    });
+    input.addEventListener('input', function(){
+      if(input.value.trim() === '') runSearch();
+    });
+  }
+})();
+</script>
+
+</body>
+                                            </html>
